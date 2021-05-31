@@ -1,0 +1,83 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header .navbar{
+    background-color: #47ccb1;
+}
+#header .navbar .nav-link{
+    color: white;
+}
+.acceuil{
+  background: url(img/bg1.png) no-repeat;
+  background-size: cover;
+  background-position:fixed; 
+  height: 100vh; 
+}
+.acceuil h1{
+  font-size: 20pxpx;
+}
+.acceuil .btn{
+  background-color:#47ccb1;
+  border-radius: 50px;
+  width: 200px;
+}
+.container-fluid .card-footer{
+  background-color:#47ccb1;
+}
+
+/* a propos */
+.a-propo hr{
+  border-width: 3px;
+  width: 50px;
+  margin-top: 6px;
+  background-color: black;
+
+}
+/* services */
+.services hr{
+  border-width: 3px;
+  width: 50px;
+  margin-top: 6px;
+}
+.services .card{
+  border-radius: 50px bottom;
+  background-color:#47ccb1;
+  height: 340px;
+  
+}
+.services .card #premier-cart{
+  border-top-left-radius: 50px;
+}
+.services .icon{
+  text-align: center;
+}
+
+.services .card .btn{
+  background-color: black;
+  color: white;
+}
+/* contact */
+.contact{
+  background: url(img/concept-medical-hexagonal-propre-blanc_1017-29801.jpg) no-repeat;
+  background-size: cover;
+}
+.contact hr{
+  border-width: 3px;
+  width: 50px;
+  margin-top: 6px;
+  background-color: black;
+}
+.contact .btn{
+  background-color:#47ccb1;
+  width: 150px;
+}
+.contact .form-group{
+  width: 500px;
+}
+/* footer */
+.footer{
+  background-color:#47ccb1;
+}
+.footer h1{
+  font-size: 20px;
+}
